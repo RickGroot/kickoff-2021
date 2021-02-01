@@ -109,4 +109,9 @@ footer a {
 
 footer img {
   width: 30px;
+  margin-right: 10px;
+}
+
+footer p {
+  color: black;
 }
