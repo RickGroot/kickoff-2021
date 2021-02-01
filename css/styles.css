@@ -1,14 +1,112 @@
 :root {
-  --primary:#FFF;
-  --secondary:#000;
+  --primary: #000;
+  --secondary: #FFF;
 }
 
 * {
-  box-sizing:border-box;
+  box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
 html {
   background: var(--secondary);
   color: var(--primary);
+}
+
+body {
+  margin: 0 auto;
+  width: 25vw;
+  min-width: 350px;
+  max-width: 450px;
+  background-color: #dbe7e4;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: calc(70px + 3vw);
+}
+
+header h1 {
+  margin: 0 auto;
+  padding-top: 60px;
+  width: 100%;
+  text-align: center;
+  font-size: 4em;
+  color: #FFF;
+}
+
+header img {
+  display: block;
+  position: relative;
+  top: 70px;
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 140px;
+}
+
+.skills div {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+  height: auto;
+  background-color: #cffcf0;
+  z-index: 1;
+}
+
+.skills div p {
+  color: #FFF;
+  padding: 15px;
+  z-index: 2;
+}
+
+.skills div::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  max-height: 100%;
+  content: '';
+  background-color: #6ABEA7;
+  z-index: -1;
+}
+
+.skills div:nth-child(1)::before {
+  width: 80%;
+}
+
+.skills div:nth-child(2)::before {
+  width: 85%;
+}
+
+.skills div:nth-child(3)::before {
+  width: 65%;
+}
+
+.info {
+  width: 90%;
+  margin: 40px auto;
+}
+
+footer {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  padding: 15px;
+}
+
+footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+footer img {
+  width: 30px;
 }
