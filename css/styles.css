@@ -4,6 +4,7 @@
 }
 
 * {
+  font-family: 'Noto Sans JP', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
@@ -31,6 +32,7 @@ header {
 }
 
 header h1 {
+  font-weight: 700;
   margin: 0 auto;
   padding-top: 60px;
   width: 100%;
@@ -49,6 +51,7 @@ header img {
 }
 
 .skills div {
+  font-weight: 300;
   margin: 0 auto;
   position: relative;
   width: 90%;
@@ -92,6 +95,14 @@ header img {
   margin: 40px auto;
 }
 
+.info h1 {
+  font-weight: 700;
+}
+
+.info p {
+  font-weight: 400;
+}
+
 footer {
   background-color: rgb(61, 61, 61);
   color: white;
@@ -113,5 +124,6 @@ footer img {
 }
 
 footer p {
+  font-weight: 700;
   color: black;
 }
