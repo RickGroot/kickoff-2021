@@ -50,9 +50,9 @@ header img {
   width: 140px;
 }
 
-.skills div {
+.skills p {
   font-weight: 300;
-  margin: 0 auto;
+  margin: 15px auto;
   position: relative;
   width: 90%;
   height: auto;
@@ -60,13 +60,13 @@ header img {
   z-index: 1;
 }
 
-.skills div p {
+.skills p {
   color: #FFF;
   padding: 15px;
   z-index: 2;
 }
 
-.skills div::before {
+.skills p::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -78,15 +78,15 @@ header img {
   z-index: -1;
 }
 
-.skills div:nth-child(1)::before {
+.skills p:nth-child(1)::before {
   width: 80%;
 }
 
-.skills div:nth-child(2)::before {
+.skills p:nth-child(2)::before {
   width: 85%;
 }
 
-.skills div:nth-child(3)::before {
+.skills p:nth-child(3)::before {
   width: 65%;
 }
 
