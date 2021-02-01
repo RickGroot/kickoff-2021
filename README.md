@@ -39,5 +39,4 @@ Voor dit project heb ik een API gebruikt die mijn data bevat. Dit is de datastru
 
 <!-- How about a license here? 📜 (or is it a licence?) 🤷 -->
 ## Licence
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)# Licence
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
